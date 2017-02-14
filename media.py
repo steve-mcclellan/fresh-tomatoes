@@ -1,4 +1,8 @@
-class Movie():
+"""Container for classes of media items."""
+
+class Movie(object):  # pylint: disable=too-few-public-methods
+    """Stores some basic data about a film."""
+
     def __init__(self, title, year, poster_image_url, trailer_youtube_url):
         self.title = title
         self.year = year
