@@ -3,6 +3,10 @@
 import fresh_tomatoes
 from media import Movie
 
+# Create a list of the Best Picture Oscar winners of the 21st century.
+# (The poster image URLs are split onto two lines. I would have preferred to
+# indent the second line for easier readability, but pylint disapproved, and I
+# decided to do it pylint's way.)
 BEST_PICTURE_WINNERS = [
     Movie("A Beautiful Mind", 2001,
           "https://upload.wikimedia.org/wikipedia/en/b/b8/"
@@ -79,4 +83,6 @@ BEST_PICTURE_WINNERS = [
           "Spotlight_%28film%29_poster.jpg",
           "https://www.youtube.com/watch?v=Zg5zSVxx9JM")]
 
+# Using the (modified) starter code in fresh_tomatoes.py and the above list,
+# generate and open an HTML page that displays the movies in a convenient form.
 fresh_tomatoes.open_movies_page(BEST_PICTURE_WINNERS)
