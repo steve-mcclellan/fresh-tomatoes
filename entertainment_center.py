@@ -5,7 +5,7 @@ import fresh_tomatoes
 from media import Movie
 
 def main():
-    """Create a list of the Best Picture Oscar winners of the 21st century."""
+    # Create a list of the Best Picture Oscar winners of the 21st century.
     best_picture_winners = [
         Movie("A Beautiful Mind", 2001,
               ("https://upload.wikimedia.org/wikipedia/en/b/b8/"
@@ -82,8 +82,9 @@ def main():
                "Spotlight_%28film%29_poster.jpg"),
               "https://www.youtube.com/watch?v=Zg5zSVxx9JM")]
 
-    # Using the (modified) starter code in fresh_tomatoes.py and the above list,
-    # generate and open an HTML page that displays the movies in a convenient form.
+    # Using the (modified) starter code in fresh_tomatoes.py and the above
+    # list, generate and open an HTML page that displays the movies in a
+    # user-friendly form.
     fresh_tomatoes.open_movies_page(best_picture_winners)
 
 
