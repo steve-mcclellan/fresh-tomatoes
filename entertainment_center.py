@@ -5,8 +5,8 @@ from media import Movie
 
 # Create a list of the Best Picture Oscar winners of the 21st century.
 # (The poster image URLs are split onto two lines. I would have preferred to
-# indent the second line for easier readability, but pylint disapproved, and I
-# decided to do it pylint's way.)
+# indent the second line for easier readability, but pylint disapproved.
+# Being a coward, I decided to do it pylint's way.)
 BEST_PICTURE_WINNERS = [
     Movie("A Beautiful Mind", 2001,
           "https://upload.wikimedia.org/wikipedia/en/b/b8/"
